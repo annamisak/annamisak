@@ -5,7 +5,7 @@ banner: annamisak-banner.jpg
 images:
   - src: event-poster.jpg
     caption: Illustrated event poster
-    desc: This three colour tone event poster is one of my favourite illustration. I love how the colours works well together and the detailed illustration gives a great edge to the visual piece.
+    desc: This three colour tone event poster is one of my favourite illustration. I love how well the colours contrast each other and the detailed illustration that gives a great edge to the visual piece.
   - src: busy-town.jpg
     caption:
     desc:
