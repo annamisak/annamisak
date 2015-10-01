@@ -4,6 +4,6 @@ I'm an Ottawa based creative visual thinker, designer and illustrator. I love ex
 
 You can also follow me on social media networks or contact me via email: [hello@annamisak.com](hello@annamisak.com).
 
-[![Behance](images/behance.png)](https://www.behance.net/annamisak)
-[![Facebook](images/facebook.png)](https://www.facebook.com/anna.basa.9)
-[![Linkedin](images/linkedin.png)](https://ca.linkedin.com/in/annamisak)
+[![Behance](img/behance.png)](https://www.behance.net/annamisak)
+[![Facebook](img/facebook.png)](https://www.facebook.com/anna.basa.9)
+[![Linkedin](img/linkedin.png)](https://ca.linkedin.com/in/annamisak)
