@@ -5,16 +5,9 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+    font: 100% / 1.5 Arial;
+    overflow: hidden;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-
-    background-color: #dedede;
-
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
 }
 
 *, *:before, *:after {
@@ -22,79 +15,79 @@ html {
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-a,
-a:link,
-a:visited,
-a:active {
-    outline: none;
-    text-decoration: none;
-    color: #F4EB84;
-}
-
-a:hover {
-    outline: none;
-    color: #fff;
-}
-
-img {
-    display: block;
-    width: 100%;
-}
-
-.wrapper {
     height: 100vh;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 
+    -webkit-perspective: 1px;
     perspective: 1px;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
 .parallax-group {
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
 
 .back {
-    background: url("../img/anna-misak-bg.jpg") no-repeat center center / cover;
-    padding-top: 62.5%;
-    transform: translateZ(-1px) scale(2);
+    -webkit-transform: translateZ(-1px) scale(2.2);
+    transform: translateZ(-1px) scale(2.2);
     position: relative;
-    top: calc(((100vh - 62.5vw) / 4) * -2);
-}
-
-.middle {
-    transform: translateZ(-0.5px);
-    color: #fff;
-    margin: 0;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 5rem;
-    top: 10vw;
+    top: calc(((100vh - 58vw) / 4) * -2);
+    display: block;
 }
 
 .front {
-    background-color: lightblue;
+    background-color: #ccc;
+    padding: 1em 1em;
+    position: relative;
+    z-index: 2;
+
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+h1 {
+    -webkit-transform: translateZ(-0.5px) scale(1.5);
+    transform: translateZ(-0.5px) scale(1.5);
+    position: absolute;
+    top: -5%;
+    width: 100%;
+    text-align: center;
     color: #fff;
-    padding: 14em 1em;
 }
 
-
-
-@media only screen and (min-width: 25em) {
-
+h2 {
+    top: 2em;
 }
 
-@media only screen and (min-width: 38em) {
-
+nav {
+    -webkit-transform: translateZ(-0.5px) scale(1.5);
+    transform: translateZ(-0.5px) scale(1.5);
+    position: absolute;
+    top: -11.2em;
+    width: 100%;
+    background-color: rgba(0, 155, 184, .9);
+    z-index: 1;
+    padding: 1em;
 }
 
-@media only screen and (min-width: 60em) {
+nav ul {
+    display: inline;
+}
 
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1em;
+}
+
+nav li: a {
+    color: #fff;
 }
