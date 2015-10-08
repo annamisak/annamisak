@@ -306,7 +306,6 @@ footer a {
     display: block;
     color: #fff;
     text-decoration: none;
-    border: 2px solid yellow;
     padding: .5em;
     opacity: .5;
         -webkit-transition: all 250ms linear;
