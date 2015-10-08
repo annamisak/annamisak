@@ -78,7 +78,6 @@ li a:hover {
     opacity: 1;
 }
 
-
 .parallax-group {
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -300,6 +299,23 @@ footer a {
     height: auto;
 }
 
+.return a,
+.return a:link,
+.return a:active,
+.return a:visited {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid yellow;
+    padding: .5em;
+    opacity: .5;
+        -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+}
+
+.return a:hover {
+    opacity: 1;
+}
 
 @media only screen and (min-width: 25em) {
 
