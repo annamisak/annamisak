@@ -11,14 +11,19 @@
 </head>
 <body>
 
-<div class="parallax-group">
-  <img class="back" src="img/anna-misak-bg.jpg" alt="">
+<ul class="skip-links">
+    <li><a href="#main">Jump to Main Content</a></li>
+    <li><a href="#navigation">Jump to Navigations</a></li>
+</ul>
 
-    <nav>
+<div class="parallax-group" id="top">
+  <img class="back" src="img/anna-misak-bg.jpg" alt="Photo of Anna Misak">
+
+    <nav id="navigation">
       <ul>
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -28,8 +33,8 @@
 
     <p class="gutter welcome">I'm an Ottawa based illustrator, print and digital designer. Scroll down to view my portfolio where you can explore the works I have created for various projects and for fun.</p>
 
-    <header class="front">
-      <h2>In the works!</h2>
+    <header class="front" id="main">
+      <h2 id="portfolio">Current works</h2>
       <p>In vitae dui in nisl lacinia convallis. Aenean molestie lectus quis consectetur finibus. Proin venenatis nisl a ultrices molestie. In tempor viverra lectus nec tristique. Morbi vel nulla malesuada, blandit purus maximus, lacinia nunc. Ut aliquam ligula id cursus elementum. Sed commodo eu erat in faucibus. Duis bibendum erat ut placerat tincidunt. Nullam pharetra lacinia interdum. Aenean condimentum aliquam suscipit.</p>
     </header>
 
@@ -87,8 +92,8 @@
 
     </div>
 
-    <div class="front-2">
-      <h2>In the works!</h2>
+    <div class="front-2" id="about">
+      <h2>About Anna</h2>
       <p>Morbi quis ex posuere, vulputate mi vitae, consectetur est. Pellentesque vitae vestibulum purus. Integer placerat aliquam rhoncus. Mauris porta semper sapien in eleifend. In vitae dui in nisl lacinia convallis. Aenean molestie lectus quis consectetur finibus. Proin venenatis nisl a ultrices molestie. In tempor viverra lectus nec tristique. Morbi vel nulla malesuada, blandit purus maximus, lacinia nunc. Ut aliquam ligula id cursus elementum. Sed commodo eu erat in faucibus. Duis bibendum erat ut placerat tincidunt. Nullam pharetra lacinia interdum. Aenean condimentum aliquam suscipit.</p>
     </div>
 
@@ -99,13 +104,14 @@
 </div>
 
     <footer class="wrapper" id="share">
-        <div class="island wrapper-footer">
+        <div class="island wrapper-footer" id="contact">
             <p class="text-center giga">Get in touch with me!</p>
             <div class="pad-top sm-wrapper">
                 <a href="https://www.facebook.com/anna.basa.9"><img class="social-media" src="img/facebook.svg" alt="Facebook"></a>
                 <a href="https://www.behance.net/annamisak"><img class="social-media" src="img/behance.svg" alt="Behance"></a>
                 <a href="https://ca.linkedin.com/in/annamisak"><img class="social-media" src="img/linkedin.svg" alt="Twitter"></a>
             </div>
+            <p class="text-center milli"><a href="#top">Return to top!</a></p>
         </div>
     </footer>
 
