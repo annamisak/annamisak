@@ -303,10 +303,8 @@ footer a {
 .return a:link,
 .return a:active,
 .return a:visited {
-    display: block;
     color: #fff;
     text-decoration: none;
-    padding: .5em;
     opacity: .5;
         -webkit-transition: all 250ms linear;
     transition: all 250ms linear;
