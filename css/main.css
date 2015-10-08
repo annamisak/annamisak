@@ -43,6 +43,7 @@ img {
     height: 60vh;
     top: 1em;
     display: block;
+    background-color: #ccc;
 }
 
 .front {
@@ -53,6 +54,22 @@ img {
 
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
+}
+
+.front-1 {
+    background-color: #ccc;
+    padding: 1em 1em;
+    position: relative;
+    z-index: 10;
+    top: 0;
+
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.top {
+    margin-top: 10em;
+    position: absolute;
 }
 
 .back-2 {
@@ -246,9 +263,13 @@ footer a {
         font-size: 5em;
     }
 
+    .h2 {
+        top: 7%;
+    }
+
     .welcome {
         width: 60%;
         right: 20%;
+        top: 10%;
     }
 }
-
