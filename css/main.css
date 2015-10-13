@@ -8,6 +8,8 @@ html {
     font: 100% / 1.5 Arial;
     overflow: hidden;
     box-sizing: border-box;
+
+
 }
 
 *, *:before, *:after {
@@ -60,105 +62,9 @@ a:focus {
     padding: 0;
 }
 
-li a,
-li a:link,
-li a:active,
-li a:visited {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    border: 2px solid yellow;
-    padding: .5em;
-    opacity: .5;
-        -webkit-transition: all 250ms linear;
-    transition: all 250ms linear;
-}
 
-li a:hover {
-    opacity: 1;
-}
-
-.parallax-group {
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-.back {
-    -webkit-transform: translateZ(-1px) scale(2.2);
-    transform: translateZ(-1px) scale(2.2);
-    position: relative;
-    width: 100%;
-    height: 60vh;
-    top: 1em;
-    display: block;
-    background-color: #ccc;
-}
-
-.front {
-    background-color: #ccc;
-    padding: 1em 1em;
-    position: relative;
-    z-index: 20;
-
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-}
-
-.front-1 {
-    background-color: #ccc;
-    padding: 1em 1em;
-    position: relative;
-    z-index: 10;
-    top: 0;
-
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-}
-
-.top {
-    margin-top: 10em;
-    position: absolute;
-}
-
-.back-2 {
-    -webkit-transform: translateZ(-.5px) scale(1.5);
-    transform: translateZ(-.5px) scale(1.5);
-    position: relative;
-    width: 100%;
-    height: 52em;
-    top: 1em;
-    padding: 2em;
-
-    background-image: url(../img/anna-misak-bg-copy.jpg);
-    background-size: cover;
-    background-position: top left;
-    background-color: yellow;
-}
-
-.front-2 {
-    background-color: #ccc;
-    padding: 1em 1em;
-    position: relative;
-    top: -14em;
-    z-index: 10;
-
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-}
-
-.quote {
-    color: #fff;
-    margin-right: 0;
-    margin-left: 0;
-    margin: 0;
-    width: 80%;
-    height: 80%;
-}
 
 h1 {
-    -webkit-transform: translateZ(-0.5px) scale(1.5);
-    transform: translateZ(-0.5px) scale(1.5);
-    position: absolute;
     top: -0.3em;
     width: 100%;
     text-align: center;
@@ -170,20 +76,12 @@ h2 {
 }
 
 .h2 {
-    -webkit-transform: translateZ(-0.5px) scale(1.5);
-    transform: translateZ(-0.5px) scale(1.5);
-    position: absolute;
-    top: 4%;
     width: 100%;
     text-align: center;
     color: #000;
 }
 
 .welcome {
-    -webkit-transform: translateZ(-0.5px) scale(1.5);
-    transform: translateZ(-0.5px) scale(1.5);
-    position: absolute;
-    top: 6%;
     width: 100%;
     text-align: center;
     color: #000;
