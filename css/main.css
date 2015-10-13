@@ -6,9 +6,37 @@
 
 html {
     font: 100% / 1.5 Arial;
-    overflow: hidden;
     box-sizing: border-box;
 
+    background-image: url(../img/anna-misak-bg-copy.jpg);
+    background-size: 100% auto;
+    background-position: top 8em left;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media only screen and (min-width: 60em) {
+
+    html {
+        font-size: 110%;
+    }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+    html {
+        font-size: 120%;
+    }
+
+}
+
+@media only screen and (min-width: 120em) {
+
+    html {
+        font-size: 130%;
+    }
 
 }
 
@@ -17,22 +45,12 @@ html {
 }
 
 body {
-    height: 100vh;
     margin: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-
-    -webkit-perspective: 1px;
-    perspective: 1px;
+    padding: 0;
 }
 
 img {
     width: 100%;
-    display: block;
-}
-
-.svg {
     display: block;
 }
 
@@ -65,10 +83,8 @@ a:focus {
 
 
 h1 {
-    top: -0.3em;
     width: 100%;
-    text-align: center;
-    color: #000;
+    color: rgba(0, 155, 184, .9);
 }
 
 h2 {
@@ -87,6 +103,10 @@ h2 {
     color: #000;
 }
 
+.svg {
+    display: block;
+}
+
 image {
     filter: url(#desaturate);
     opcity: .7;
@@ -101,32 +121,55 @@ image:hover {
 
 /*   -------  Navigation  -------   */
 
-nav {
-    -webkit-transform: translateZ(-0.5px) scale(1.5);
-    transform: translateZ(-0.5px) scale(1.5);
-    position: absolute;
-    top: -11.2em;
-    left: -.4em;
-    width: 103%;
-    background-color: rgba(0, 155, 184, .9);
-    z-index: 1;
-    padding: .5em;
+
+
+.title {
+    text-align: center;
 }
 
-nav ul {
-    display: inline;
-    padding-left: 0;
+.intro {
+    background-color: #ecd2a1;
+    overflow: hidden;
+    text-align: center;
 }
 
-nav li {
+header {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+}
+
+.nav {
     list-style-type: none;
-    display: inline-block;
-    padding: .5em;
+    padding: 0;
+    margin: 0;
 }
 
-nav li: a {
-    color: #fff;
+.nav li {
+  display: inline-block;
 }
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #ecd2a1;
+    color: #000;
+}
+
+
+
 
 /*   -------  Footer  -------   */
 
@@ -142,7 +185,7 @@ footer p {
     margin: 0;
 }
 
-wrapper {
+.wrapper {
     width: 100%;
 }
 
@@ -214,35 +257,33 @@ footer a {
 
 @media only screen and (min-width: 25em) {
 
-    h1 {
-        font-size: 3.5em;
+    .nav {
+        text-align: center;
     }
+
 }
 
 @media only screen and (min-width: 38em) {
 
-    h1 {
-        font-size: 5em;
+    html {
+        background-position: top 1.5em left;
     }
 
-    .h2 {
-        top: 7%;
+    .title {
+        float: left;
     }
 
-    .welcome {
-        width: 60%;
-        right: 20%;
-        top: 10%;
+    .nav {
+        float: right;
+        margin-right: 8%;
     }
+
 }
 
 @media only screen and (min-width: 60em) {
 
-    h1 {
-        font-size: 5em;
-    }
-
-    .back {
-        height: 80vh;
-    }
+    .nav {
+            float: right;
+            margin-right: 11%;
+        }
 }
