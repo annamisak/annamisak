@@ -134,7 +134,7 @@ image:hover {
 
 header {
   overflow: hidden;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 1);
   position: fixed;
   width: 100%;
 }
@@ -170,8 +170,13 @@ header {
     border: 2px solid yellow;
 }
 
+.clearfix {
+  overflow: hidden;
+}
 
-
+main {
+    margin-top: 25%;
+}
 
 /*   -------  Footer  -------   */
 
@@ -180,7 +185,6 @@ footer {
     background-color: rgba(0, 155, 184, .9);
     color: #fff;
     margin: 0;
-    position: relative;
 }
 
 footer p {
@@ -285,7 +289,6 @@ footer a {
 @media only screen and (min-width: 60em) {
 
     .nav {
-            float: right;
             margin-right: 11%;
         }
 }
