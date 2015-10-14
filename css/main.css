@@ -133,6 +133,17 @@ image:hover {
     background-color: rgba(248, 240, 169, .9);
 }
 
+.samples img {
+    width: 100%;
+    opacity: .2;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+}
+
+.samples img:hover {
+    opacity: 1;
+}
+
 .quote {
     background-color: rgba(255, 255, 255, 1);
     padding-top: 4em;
