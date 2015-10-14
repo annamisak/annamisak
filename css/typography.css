@@ -175,6 +175,10 @@ sub {
   padding-bottom: 3.0000rem;
 }
 
+.pad-top-triple, .pad-t-3 {
+  padding-bottom: 4.5rem;
+}
+
 .pad-bottom-triple, .pad-b-3 {
   padding-bottom: 4.5rem;
 }
