@@ -10,7 +10,7 @@ html {
 
     background-image: url(../img/anna-misak-bg-copy.jpg);
     background-size: 100% auto;
-    background-position: top 8em left;
+    background-position: top 7.5em left;
     background-color: #ccc;
     background-attachment: fixed;
 }
@@ -54,23 +54,23 @@ img {
 }
 
 .skip-links {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .skip-links a {
-  position: absolute;
-  top: -3em;
-  padding: 0.5em 0.75em;
-  background-color: rgba(0, 155, 184, .9);
-  color: #FFF;
-  font-weight: bold;
-  text-decoration: none;
+    position: absolute;
+    top: -3em;
+    padding: 0.5em 0.75em;
+    background-color: rgba(0, 155, 184, .9);
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .skip-links a:focus {
-  top: 0;
+    top: 0;
 }
 
 a:focus {
@@ -78,8 +78,62 @@ a:focus {
     margin: 0;
 }
 
+/*   -------  Navigation  -------   */
+
+.title {
+    text-align: center;
+}
+
+.intro {
+    background-color: #ecd2a1;
+    overflow: hidden;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 1);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 2px solid rgba(0, 155, 184, .9);
+    text-align: center;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    border: 3px solid white;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    color: rgba(0, 155, 184, .9);
+    border: 3px solid yellow;
+}
+
+/*   -------  Main -------   */
+
 .clearfix {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 main {
@@ -89,6 +143,7 @@ main {
 h1 {
     width: 100%;
     color: rgba(0, 155, 184, .9);
+    margin-bottom: 0;
 }
 
 h2 {
@@ -107,22 +162,8 @@ h2 {
     color: #000;
 }
 
-.svg {
-    display: block;
-}
-
-image {
-    filter: url(#desaturate);
-    opacity: .3;
-    width: 100%;
-    display: block;
-    -webkit-transition: all 250ms linear;
-    transition: all 250ms linear;
-}
-
-image:hover {
-    filter: none;
-    opacity: 1;
+.display {
+    display: visible;
 }
 
 .portfolio {
@@ -144,7 +185,6 @@ image:hover {
 }
 
 img.grayscale {
-
     -webkit-filter: grayscale(1);
     -moz-filter: grayscale(1);
     -ms-filter: grayscale(1);
@@ -157,7 +197,6 @@ img.grayscale {
 }
 
 img.grayscale:hover {
-
     -webkit-filter: grayscale(0);
     -moz-filter: grayscale(0);
     -ms-filter: grayscale(0);
@@ -217,56 +256,6 @@ blockquote cite:before {
     content: "\2014 \2009";
 }
 
-/*   -------  Navigation  -------   */
-
-
-.title {
-    text-align: center;
-}
-
-.intro {
-    background-color: #ecd2a1;
-    overflow: hidden;
-    text-align: center;
-}
-
-header {
-  background-color: rgba(255, 255, 255, 1);
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-}
-
-.nav {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav li {
-  display: inline-block;
-}
-
-.nav a,
-.nav a:link,
-.nav a:visited {
-    display: block;
-    color: #000;
-    text-decoration: none;
-    border: 2px solid white;
-    -webkit-transition: all 250ms linear;
-    transition: all 250ms linear;
-}
-
-.nav a:hover,
-.nav a:focus,
-.nav a:active
-.nav .nav-current,
-.nav .nav-current:link,
-.nav .nav-current:visited {
-    color: rgba(0, 155, 184, .9);
-    border: 2px solid yellow;
-}
 
 /*   -------  Footer  -------   */
 
@@ -372,6 +361,14 @@ footer a {
     .nav {
         float: right;
         margin-right: 8%;
+    }
+
+    h1 {
+        margin-bottom: .75em;
+    }
+
+    .display {
+        display: none;
     }
 
 }
