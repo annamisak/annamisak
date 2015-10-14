@@ -126,20 +126,62 @@ image:hover {
 }
 
 .portfolio {
-    background-color: rgba(0, 155, 184, 1);
+    background-color: rgba(0, 155, 184, .9);
 }
 
 .samples {
-    /* background-color: rgba(248, 240, 169, .9); */
-    background-color: rgba(0, 155, 184, 1);
+    background-color: rgba(248, 240, 169, .9);
+}
+
+.quote {
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 .about {
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    font-style: italic;
+    width: 50%;
+    padding: 0.25em 40px;
+    line-height: 1.45;
+    padding-top: 2em;
+    color: #383838;
+    margin: 0 auto;
+    position: relative;
+}
+
+blockquote:before {
+    display: block;
+    position: absolute;
+    content: "\201C";
+    font-size: 10em;
+    color: #ccc;
+    margin-top: -100px;
+    right: .3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    text-align: right;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
 }
 
 /*   -------  Navigation  -------   */
-
 
 
 .title {
@@ -153,10 +195,10 @@ image:hover {
 }
 
 header {
-  overflow: hidden;
   background-color: rgba(255, 255, 255, 1);
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 
 .nav {
