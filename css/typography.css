@@ -60,7 +60,6 @@ h1, .exa {
 h2, .peta {
   font-size: 1.6018rem;
   line-height: 1;
-  font-family: "Great Vibes", cursive;
 }
 
 h3, .tera {
@@ -86,6 +85,10 @@ h6, .kilo {
 small, .milli {
   font-size: 0.8889rem;
   line-height: 1.6875;
+}
+
+.font-family {
+  font-family: "Great Vibes", cursive;
 }
 
 .micro {
