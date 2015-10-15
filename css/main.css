@@ -270,6 +270,7 @@ footer {
     background-color: rgba(0, 155, 184, .9);
     color: #fff;
     margin: 0;
+    width: 100%;
 }
 
 footer p {
@@ -383,7 +384,7 @@ footer a {
     }
 
     .border-img {
-        width: 40%;
+        width: 100%;
     }
 
     .welcome {
@@ -403,6 +404,11 @@ footer a {
         right: .3em;
     }
 
+    .wrapper {
+        width: 95%;
+        margin: 0 auto;
+    }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -415,12 +421,13 @@ footer a {
         margin-right: 11%;
     }
 
-    .border-img {
-        width: 60%;
-    }
-
     .welcome {
         width: 40%;
         margin-left: 40%;
     }
+
+    .wrapper {
+        width: 85%;
+    }
+
 }
