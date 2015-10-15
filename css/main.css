@@ -384,10 +384,6 @@ footer a {
         background-position: top 5.7em left;
     }
 
-    main {
-        margin-top: 15%;
-    }
-
     .title {
         float: left;
     }
@@ -411,6 +407,7 @@ footer a {
 
     .welcome {
         width: 50%;
+        padding-top: 15%;
         margin-left: 35%;
         color: #000;
         background-color: rgba(248, 240, 169, .5);
@@ -435,10 +432,6 @@ footer a {
 
 @media only screen and (min-width: 60em) {
 
-    main {
-        margin-top: 25%;
-    }
-
     .nav {
         margin-right: 11%;
     }
@@ -446,6 +439,7 @@ footer a {
     .welcome {
         width: 40%;
         margin-left: 40%;
+        padding-top: 26%;
     }
 
     .wrapper {
