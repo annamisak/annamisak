@@ -5,8 +5,13 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-    font: 100% / 1.5 Arial;
+    font: 100% / 1.5;
     box-sizing: border-box;
+
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 
     background-image: url(../img/anna-misak-bg-copy.jpg);
     background-size: 100% auto;
