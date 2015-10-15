@@ -249,7 +249,7 @@ img.grayscale:hover {
 
 blockquote {
     font-family: Georgia, serif;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-style: italic;
     width: 70%;
     padding: 0.25em 40px;
@@ -264,7 +264,7 @@ blockquote:before {
     display: block;
     position: absolute;
     content: "\201C";
-    font-size: 5em;
+    font-size: 5rem;
     color: #ccc;
     margin-top: -60px;
     right: .2em;
@@ -418,7 +418,7 @@ footer a {
     }
 
     blockquote:before {
-        font-size: 8em;
+        font-size: 8rem;
         margin-top: -100px;
         right: .3em;
     }
