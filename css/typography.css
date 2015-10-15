@@ -90,6 +90,7 @@ small, .milli {
 
 .font-family {
   font-family: "Great Vibes", cursive;
+  font-weight: normal;
 }
 
 .micro {
@@ -183,6 +184,10 @@ sub {
 
 .pad-top-triple, .pad-t-3 {
   padding-top: 4.5rem;
+}
+
+.pad-t-4 {
+  padding-top: 5.5rem;
 }
 
 .pad-t-5 {
