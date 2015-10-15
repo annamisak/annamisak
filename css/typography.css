@@ -42,6 +42,7 @@ fieldset, pre, table {
 .yotta {
   font-size: 3.2807rem;
   line-height: 1;
+  font-weight: normal;
 }
 
 .zetta {
@@ -59,6 +60,7 @@ h1, .exa {
 h2, .peta {
   font-size: 1.6018rem;
   line-height: 1;
+  font-family: "Great Vibes", cursive;
 }
 
 h3, .tera {
@@ -176,7 +178,11 @@ sub {
 }
 
 .pad-top-triple, .pad-t-3 {
-  padding-bottom: 4.5rem;
+  padding-top: 4.5rem;
+}
+
+.pad-t-5 {
+  padding-top: 6.5rem;
 }
 
 .pad-bottom-triple, .pad-b-3 {
@@ -203,8 +209,16 @@ sub {
   padding-right: 0.3750rem;
 }
 
+.pad-r-2 {
+  padding-right: 1.5rem;
+}
+
 .pad-left {
   padding-left: 0.3750rem;
+}
+
+.mar-top {
+  margin-top
 }
 
 .island {
