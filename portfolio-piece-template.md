@@ -34,7 +34,8 @@ sketches:
   - sketch-1.jpg
   - sketch-2.jpg
   - sketch-2.jpg
-about: Being an artist doesn't start with a big bang, but rather years of self exploring of who you really are and what you want to do. I recognized I’ve had the foundation of being a visual designer. After getting accepted in college for graphic design, I discovered that I’m a designer and illustrator with an eye for detail... (more to add)
+about: Being an artist doesn't start with a big bang, but rather years of self exploring of who you really are and what you want to do. Currently, I am studying Graphic Design at Algonquin College.  In the past couple of years I have developed my skills with an eye for details. I am excited by the interesting design projects, enjoying the creative challenge on a daily basis and pushing my core limit to the max to produce the best work possible. By heart I am an illustrator and there is nothing better than seeing roughly crafted concepts turned into beautifully coloured artworks. I want to inspire others with my work just like I have been by many talented designers. So don’t be shy, connect with me through social media or just send me an e-mail to say “Hi!”.
+
 quote: Design is a way of life, a point of view. It involves the whole complex of visual communications: talent, creative ability, manual skill, and technical knowledge. Aesthetics and economics, technology and psychology are intrinsically related to the process. —Paul Rand
 contact:
   - e-mail
