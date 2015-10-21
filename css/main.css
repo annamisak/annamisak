@@ -267,6 +267,11 @@ img.grayscale:hover {
     padding-bottom: 4em;
 }
 
+.text-work {
+    bottom: 10px;
+    background-color: #fff;
+}
+
 blockquote {
     font-family: Georgia, serif;
     font-size: 1.5rem;
