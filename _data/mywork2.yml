@@ -1,10 +1,10 @@
 - image: works-place-holder.jpg
   url: /work/
-  tag: Title of Digital Design 1
+  alt: Title of Digital Design 1
 
 - image: works-place-holder.jpg
   url: /work/
-  tag: Title of Digital Design 2
+  alt: Title of Digital Design 2
 
 - image: works-place-holder.jpg
   url: /work/
