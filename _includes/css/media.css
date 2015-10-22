@@ -1,0 +1,77 @@
+@media only screen and (min-width: 25em) {
+
+    .nav {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+    html {
+        background-position: top 5.7em left;
+    }
+
+    .title {
+        float: left;
+    }
+
+    .nav {
+        float: right;
+        margin-right: 8%;
+    }
+
+    h1 {
+        margin-bottom: .75em;
+    }
+
+    .display {
+        display: none;
+    }
+
+    .border-img {
+        width: 100%;
+    }
+
+    .welcome {
+        width: 50%;
+        padding-top: 15%;
+        margin-left: 35%;
+        color: #000;
+        background-color: rgba(248, 240, 169, .5);
+    }
+
+    blockquote {
+        width: 50%;
+    }
+
+    blockquote:before {
+        font-size: 8rem;
+        margin-top: -60px;
+        right: .3em;
+    }
+
+    .wrapper {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+    .nav {
+        margin-right: 11%;
+    }
+
+    .welcome {
+        width: 40%;
+        margin-left: 40%;
+        padding-top: 26%;
+    }
+
+    .wrapper {
+        width: 85%;
+    }
+
+}

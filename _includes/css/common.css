@@ -1,0 +1,92 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+    font: 100% / 1.5;
+    box-sizing: border-box;
+
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+
+    background-image: url(../img/anna-misak-bg-copy.jpg);
+    background-size: 100% auto;
+    background-position: top 7.5em left;
+    background-color: #ccc;
+    background-attachment: fixed;
+}
+
+@media only screen and (min-width: 60em) {
+
+    html {
+        font-size: 110%;
+    }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+    html {
+        font-size: 120%;
+    }
+
+}
+
+@media only screen and (min-width: 120em) {
+
+    html {
+        font-size: 125%;
+    }
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    z-index: 20;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    padding: 0.5em 0.75em;
+    background-color: rgba(0, 155, 184, .9);
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+
+a:focus {
+    outline: 2px solid rgba(16, 16, 16, .9);
+    margin: 0;
+}
