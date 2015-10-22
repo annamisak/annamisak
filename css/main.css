@@ -39,7 +39,7 @@ html {
 @media only screen and (min-width: 120em) {
 
     html {
-        font-size: 130%;
+        font-size: 125%;
     }
 
 }
@@ -139,8 +139,12 @@ header {
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
-    color: rgba(0, 155, 184, .9);
+    color: #000;
     border: 3px solid yellow;
+}
+
+.current {
+    background-color: rgba(0, 155, 184, .9);
 }
 
 /*   -------  Main -------   */
