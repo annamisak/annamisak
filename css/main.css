@@ -218,8 +218,14 @@ h4 a:hover {
     transition: all 250ms linear;
 }
 
-.samples img:hover, .portfolio img:hover {
+.samples img:hover, .portfolio img:hover, .mywork img:hover {
     opacity: 1;
+}
+
+.mywork img {
+    opacity: .9;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
 }
 
 img.grayscale {
