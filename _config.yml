@@ -1,2 +1,3 @@
 permalink: pretty
 baseurl: /annamisak.com
+exclude: ['README.md']
