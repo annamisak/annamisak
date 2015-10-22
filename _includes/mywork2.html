@@ -1,0 +1,5 @@
+{% for myworks in site.data.mywork2 %}
+  <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+      <a href="{{site.baseurl}}{{myworks.url}}"><img class="grayscale" src="{{site.baseurl}}/img/{{myworks.image}}" alt="{{myworks.alt}}"></a>
+  </div>
+{% endfor %}
