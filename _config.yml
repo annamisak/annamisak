@@ -1,5 +1,5 @@
 markdown: redcarpet
-permalink: pretty
+permalink: /:title/
 baseurl: /annamisak.com
 exclude: ['README.md', 'portfolio-piece-template.md']
 
