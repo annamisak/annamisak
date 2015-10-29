@@ -1,0 +1,27 @@
+/* Designer and Developer */
+
+Designer and Developer: Anna Misak
+
+Site: hello@annamisak.com
+
+Github: https://github.com/annamisak
+
+Behance: https://www.behance.net/annamisak
+
+Linkedin: https://www.linkedin.com/in/annamisak
+
+
+
+/* THANKS */
+
+Name: www.annamisak.com
+
+
+
+/* SITE */
+
+Last update: October, 28, 2015
+
+Standards: HTML5, CSS3, Jekyll
+
+Software: Sublime Text 2, Github
