@@ -1,5 +1,5 @@
 html {
-  font: 300 100%/1.5 "Oxygen", sans-serif;
+  font: 300 100%/1.5 "Source Sans Pro", sans-serif;
 }
 
 @media only screen and (min-width: 45em) {
@@ -89,8 +89,7 @@ small, .milli {
 }
 
 .font-family {
-  font-family: "Great Vibes", cursive;
-  font-weight: normal;
+  font-family: "Rancho";
 }
 
 .micro {
