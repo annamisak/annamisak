@@ -1,8 +1,8 @@
 ---
 layout: mywork
 title: Crafting Typography
-meta: Description of the portfolio piece will be needed to be added here to match the current page content.
-info:  This isometric il
+meta: Fun and colourful isometric illustration portraying a process of crafting typography.
+info:  This isometric illustration portrays a process of little people crafting typography in brightly coloured workplace.
 bigimg: work/iso-big.jpg
 smallimg1: work/iso-small1.jpg
 smallimg2: work/iso-small2.jpg
