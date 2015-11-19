@@ -1,6 +1,6 @@
 ---
 layout: mywork
-title: Digital Piece 1
+title: IZZE Ad Campaign
 meta: Description of the portfolio piece will be needed to be added here to match the current page content.
 info: Description of the portfolio piece will be needed to be added here to match the current page content.
 bigimg: work/izze-big.jpg
