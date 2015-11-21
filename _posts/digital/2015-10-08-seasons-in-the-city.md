@@ -3,13 +3,13 @@ layout: mywork
 title: Seasons in the City
 meta: Description of the portfolio piece will be needed to be added here to match the current page content.
 info: Description of the portfolio piece will be needed to be added here to match the current page content.
-bigimg: work/iso-big.jpg
+bigimg: work/seasons-big.jpg
 smallimg1: work/iso-small1.jpg
 smallimg2: work/iso-small2.jpg
 smallimg3: work/iso-small3.jpg
-altsmall: Crafting Typography
+altsmall: Seasons in the Cit
 image: work/seasons-small.jpg
 url: /work/
-alt: Title of Digital 2
+alt: Seasons in the Cit
 category: digital
 ---
