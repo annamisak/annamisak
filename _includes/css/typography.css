@@ -1,5 +1,5 @@
 html {
-  font: 300 100%/1.5 "Source Sans Pro", sans-serif;
+  font: 400 100%/1.5 "Source Sans Pro", sans-serif;
 }
 
 @media only screen and (min-width: 45em) {
@@ -60,6 +60,7 @@ h1, .exa {
 h2, .peta {
   font-size: 1.6018rem;
   line-height: 1.4;
+  font-weight: normal;
 }
 
 h3, .tera {

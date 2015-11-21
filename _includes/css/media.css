@@ -56,6 +56,15 @@
         margin: 0 auto;
     }
 
+    .img-push {
+        padding-top: 4em;
+    }
+
+    .wrapper-sm {
+        margin: 0 auto;
+        width: 75%;
+    }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -72,6 +81,11 @@
 
     .wrapper {
         width: 85%;
+    }
+
+    .wrapper-sm {
+        margin: 0 auto;
+        width: 60%;
     }
 
 }

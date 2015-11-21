@@ -53,6 +53,11 @@ h4 a:hover {
     color: #fff;
 }
 
+.white-bg {
+    background-color: #fff;
+    opacity: .9;
+}
+
 .samples {
     background-color: rgba(248, 240, 169, .9);
 }
@@ -72,10 +77,7 @@ h4 a:hover {
     opacity: .9;
     -webkit-transition: all 250ms linear;
     transition: all 250ms linear;
-}
-
-
-----*/
+} --- */
 
 img.grayscale {
     -webkit-filter: grayscale(1);
@@ -102,6 +104,10 @@ img.grayscale:hover {
 
     -webkit-transition: all 250ms linear;
     transition: all 250ms linear;
+}
+
+.img-push {
+    padding-top: 7em;
 }
 
 .about {
