@@ -1,5 +1,5 @@
 html {
-  font: 400 100%/1.5 "Source Sans Pro", sans-serif;
+  font: 400 100%/1.5 "Open Sans", sans-serif;
 }
 
 @media only screen and (min-width: 45em) {
@@ -81,7 +81,7 @@ h5, .mega {
 
 h6, .kilo {
   font-size: 1.0000rem;
-  line-height: 1.5000;
+  line-height: 1.6000;
 }
 
 small, .milli {
@@ -90,7 +90,11 @@ small, .milli {
 }
 
 .font-family {
-  font-family: "Rancho";
+  font-family: "PT Serif";
+}
+
+.500 {
+  font-weight: 500;
 }
 
 .micro {
