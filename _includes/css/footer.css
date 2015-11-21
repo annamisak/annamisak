@@ -1,6 +1,6 @@
 footer {
     height: auto;
-    background-color: rgba(0, 155, 184, .9);
+    background-color: rgba(45, 185, 195, .9);
     color: #fff;
     margin: 0;
     width: 100%;
@@ -35,7 +35,7 @@ footer a {
     width: 3em;
     height: 3em;
     display: block;
-    opacity: .9;
+    opacity: .95;
     margin: 1em;
 }
 
@@ -72,7 +72,7 @@ footer a {
 .return a:visited {
     color: #fff;
     text-decoration: none;
-    opacity: .5;
+    opacity: .8;
     -webkit-transition: all 250ms linear;
     transition: all 250ms linear;
 }

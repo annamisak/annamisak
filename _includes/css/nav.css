@@ -13,7 +13,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 10;
-    border-bottom: 2px solid rgba(0, 155, 184, .9);
+    border-bottom: 2px solid rgba(45, 185, 195, .9);
     text-align: center;
 }
 
@@ -49,5 +49,5 @@ header {
 }
 
 .current {
-    background-color: rgba(0, 155, 184, .9);
+    background-color: rgba(45, 185, 195, .9);
 }
