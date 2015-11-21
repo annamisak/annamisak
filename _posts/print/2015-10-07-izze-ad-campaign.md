@@ -13,5 +13,5 @@ altsmall: IZZE Ad Campaign
 image: work/izze-small.jpg
 url: /work/
 alt: IZZE Ad Campaign
-category: digital
+category: print
 ---
