@@ -35,20 +35,10 @@
 
     .welcome {
         width: 50%;
-        padding-top: 15%;
+        padding-top: 8%;
         margin-left: 35%;
         color: #000;
         background-color: rgba(248, 240, 169, .5);
-    }
-
-    blockquote {
-        width: 50%;
-    }
-
-    blockquote:before {
-        font-size: 8rem;
-        margin-top: -60px;
-        right: .3em;
     }
 
     .wrapper {
