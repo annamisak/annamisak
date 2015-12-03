@@ -45,6 +45,7 @@ header {
 .nav .nav-current:visited {
     color: #000;
     border: 3px solid yellow;
+    outline: 0;
 }
 
 .current {

@@ -1,5 +1,1 @@
-$('.portfolio').localScroll();
-
-$('.about').localScroll();
-
-$('.wrapper').localScroll();
+$('.nav').localScroll();
