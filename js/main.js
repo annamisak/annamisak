@@ -2,4 +2,4 @@ $('.portfolio').localScroll();
 
 $('.about').localScroll();
 
-$('.return').localScroll();
+$('.wrapper').localScroll();

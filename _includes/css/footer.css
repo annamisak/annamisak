@@ -1,4 +1,4 @@
-footer {
+.footer {
     height: auto;
     background-color: rgba(45, 185, 195, .9);
     color: #fff;
@@ -6,7 +6,7 @@ footer {
     width: 100%;
 }
 
-footer p {
+.footer p {
     margin: 0;
 }
 
@@ -14,15 +14,15 @@ footer p {
     width: 100%;
 }
 
-footer li {
+.footer li {
     list-style-type: none;
 }
 
-footer ul {
+.footer ul {
     padding-left: 0;
 }
 
-footer a {
+.footer a {
     display: inline-block;
 }
 
