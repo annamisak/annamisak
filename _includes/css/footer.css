@@ -66,10 +66,10 @@
     height: auto;
 }
 
-.return a,
-.return a:link,
-.return a:active,
-.return a:visited {
+.email a,
+.email a:link,
+.email a:active,
+.email a:visited {
     color: rgba(248, 240, 169, .9);
     text-decoration: none;
     opacity: .8;
@@ -77,23 +77,7 @@
     transition: all 250ms linear;
 }
 
-.return a:hover {
-    opacity: 1;
-    text-decoration: underline;
-}
-
-.return-top a,
-.return-top a:link,
-.return-top a:active,
-.return-top a:visited {
-    color: rgba(45, 185, 195, .9);
-    text-decoration: none;
-    opacity: .8;
-    -webkit-transition: all 250ms linear;
-    transition: all 250ms linear;
-}
-
-.return-top a:hover {
+.email a:hover {
     opacity: 1;
     text-decoration: underline;
 }
