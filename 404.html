@@ -1,0 +1,38 @@
+---
+layout: default
+permalink: 404.html
+meta: I'm an Ottawa based creative visual thinker, designer and illustrator. I love exploring new design trends and add my own personality to the artist community.
+priority: 1.0
+---
+
+<main id="main" role="main">
+  <article class="page-broken pad-top">
+    <div>
+      <img class="pad-t-3 display" src="{{site.baseurl}}/img/anna-misak-bg-copy.jpg">
+      <h2 class="gutter yotta pad-t-4 font-family">404 Woopsie!</h2>
+      <p class="gutter giga">Oh, boy! I can't seem to find what you are looking for. Perhaps you mistyped the URL address or you clicked on a broken link. If the broken link is the reason you are seeing this, then I would really appreciate it if you could send me an email to report this issue. Thanks for helping keeping this site error free!</p>
+      <div class="pad-bottom" id="mywork"></div>
+    </div>
+  </article>
+
+    <article class="samples">
+      <h3 class="giga pad-t-2 text-center"><a class="btn-broken giga text-center peta push-0" href="mailto:hello@annamisak.com">Report Broken Link</a></h3>
+      <div class="pad-t-2" id="about"></div>
+    </article>
+
+    <article class="portfolio">
+
+    <div class="grid pad-t-1">
+      {% for mywork in site.categories.illustration %}
+        <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+            <a href="{{site.baseurl}}{{mywork.url}}"><img class="grayscale" src="{{site.baseurl}}/img/{{mywork.image}}" alt="{{mywork.alt}}"></a>
+        </div>
+      {% endfor %}
+      {% for mywork in site.categories.print %}
+        <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+            <a href="{{site.baseurl}}{{mywork.url}}"><img class="grayscale" src="{{site.baseurl}}/img/{{mywork.image}}" alt="{{mywork.alt}}"></a>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+</main>

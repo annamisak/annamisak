@@ -41,6 +41,12 @@
         background-color: rgba(248, 240, 169, .5);
     }
 
+    .page-broken {
+        width: 90%;
+        padding-top: 8%;
+        margin: 0 auto;
+    }
+
     .wrapper {
         width: 95%;
         margin: 0 auto;
@@ -67,6 +73,12 @@
         width: 40%;
         margin-left: 40%;
         padding-top: 26%;
+    }
+
+    .page-broken {
+        width: 80%;
+        padding-top: 8%;
+        margin: 0 auto;
     }
 
     .wrapper {
