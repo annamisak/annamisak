@@ -1,6 +1,6 @@
 markdown: redcarpet
 permalink: /:title/
-baseurl: /annamisak.com
+baseurl: 
 exclude: ['README.md', 'portfolio-piece-template.md']
 
 name: Anna Misak Portfolio
